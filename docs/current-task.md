@@ -4,7 +4,7 @@ Atualizado em 25/09/2026.
 
 ## Objetivo
 
-Conferir as ilustrações harmonizadas pelos links diretos e seguir com a entrada Começar/Continuar prevista no plano.
+Publicar a versão aprovada em `jornadacomapalavra.com.br`, com hospedagem na Vercel e DNS na Hostinger. A solicitação de publicação passa a ser a prioridade; melhorias de navegação ficam para depois.
 
 ## Concluído
 
@@ -25,6 +25,10 @@ Conferir as ilustrações harmonizadas pelos links diretos e seguir com a entrad
 - Adicionados links diretos `#dia-5`, `#dia-13` e `#dia-19`; servidor local sem cache para facilitar a conferência. O usuário confirmou que acessa localhost; o servidor retornava as imagens anteriores corretamente, sem evidência de falha no carregamento.
 
 ## Próximos passos
+
+Prioridade atual: concluir login na Vercel, deploy e DNS conforme `publicacao.md`. Configuração local preparada e validada; nenhuma publicação ou alteração de DNS realizada nesta etapa.
+
+Backlog após publicação:
 
 1. Revisar com José os créditos e as ilustrações na aplicação local (http://127.0.0.1:5173).
 2. Implementar a entrada Começar/Continuar prevista no plano.

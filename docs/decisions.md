@@ -18,6 +18,10 @@
 
 ## Pendências
 
-- Nome definitivo, domínio, tradução bíblica e direitos de reprodução.
-- Divulgação por convite ou pública e confirmação da hospedagem.
+- Tradução bíblica e direitos de reprodução.
+- Concluir autenticação da Vercel e configuração do DNS.
 - Revisão editorial das reflexões. Links originais usam YouVersion/NVI; não há transcrição integral de tradução bíblica.
+
+## Publicação autorizada em 25/09/2026
+
+José solicitou colocar no ar e definiu `jornadacomapalavra.com.br` como domínio. Seguir o padrão dos demais projetos (Vercel + DNS Hostinger), substituindo a sugestão inicial de hospedar na Hostinger. Publicar a versão já aprovada; a entrada Começar/Continuar e outros aprimoramentos ficam no backlog. Manter o site original em `daniel.lazarete.com.br`.
