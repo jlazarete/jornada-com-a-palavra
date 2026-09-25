@@ -14,6 +14,8 @@
 
 - **25/09/2026 — após aprovação visual de José:** aplicados créditos discretos e três ilustrações nos dias 5, 13 e 19. Preservados a capa, o roteiro e o restante do visual. A imagem com legenda em inglês fica reservada para revisão.
 
+- **25/09/2026 — pedido de José:** harmonizar as três ilustrações com as duas originais. Novos PNGs `-v2` gerados pela ferramenta integrada, mantendo os originais. Links de dia e prévia sem cache ajudam a localizar e conferir as imagens; nenhuma mudança no site de produção.
+
 ## Pendências
 
 - Nome definitivo, domínio, tradução bíblica e direitos de reprodução.

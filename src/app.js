@@ -10,6 +10,12 @@ try {
   /* Continue in memory. */
 }
 const state = loadProgress(storage);
+function linkedDay() {
+  const match = window.location.hash.match(/^#dia-([1-9]|1[0-9]|2[01])$/);
+  return match ? Number(match[1]) : null;
+}
+const initialDay = linkedDay();
+if (initialDay) state.active = initialDay;
 const esc = (value) =>
   String(value).replace(
     /[&<>"']/g,
@@ -96,6 +102,7 @@ document.addEventListener("click", (event) => {
   const dayButton = event.target.closest("[data-day]");
   if (dayButton) {
     state.active = Number(dayButton.dataset.day);
+    window.history.replaceState(null, "", `#dia-${state.active}`);
     persist(keys.active, state.active);
     render();
     if (window.innerWidth < 851) {
@@ -134,4 +141,20 @@ document.addEventListener("click", (event) => {
   }
 });
 
+function revealDetail() {
+  const detail = document.getElementById("detail");
+  detail.focus({ preventScroll: true });
+  detail.scrollIntoView({ block: "start" });
+}
+
+window.addEventListener("hashchange", () => {
+  const day = linkedDay();
+  if (!day) return;
+  state.active = day;
+  persist(keys.active, day);
+  render();
+  revealDetail();
+});
+
 render();
+if (initialDay) requestAnimationFrame(revealDetail);

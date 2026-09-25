@@ -253,7 +253,7 @@ a:focus-visible {
 }
 .detail-image--illustration {
   height: auto;
-  aspect-ratio: 11 / 6;
+  aspect-ratio: auto 16 / 9;
 }
 .detail h2 {
   font-size: 30px;

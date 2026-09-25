@@ -36,3 +36,7 @@ Ainda faltam a revisão editorial das reflexões e orações, verificação exte
 ## Créditos e ilustrações — 25/09/2026
 
 Após a aprovação visual, a build e os seis testes existentes passaram novamente. Chrome/Playwright confirmou créditos, carregamento das três imagens nos dias 5, 13 e 19, retorno à imagem original no dia 1, textos alternativos e proporção integral das ilustrações. Layout sem rolagem horizontal em 320 e 390 pixels; capturas desktop e celular inspecionadas. Nenhum erro JavaScript observado. As imagens selecionadas foram copiadas sem edição; a capa original permanece intacta.
+
+## Harmonização e acesso às cenas — 25/09/2026
+
+Os três novos PNGs foram inspecionados visualmente e carregaram no Chrome. Conferidos proporção integral, textos alternativos, imagens por dia, retorno à imagem original e layout móvel em 320/390 pixels. Links diretos de dias, mudança de fragmento, recarregamento e fragmento inválido passaram na verificação do navegador. O servidor da prévia responde `Cache-Control: no-store`. Build concluída e seis testes de conteúdo/progresso passaram; nenhuma alteração em produção.

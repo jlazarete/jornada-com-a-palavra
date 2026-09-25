@@ -4,7 +4,7 @@ Atualizado em 25/09/2026.
 
 ## Objetivo
 
-Revisar a versão com créditos e ilustrações por dia; seguir com a entrada Começar/Continuar prevista no plano.
+Conferir as ilustrações harmonizadas pelos links diretos e seguir com a entrada Começar/Continuar prevista no plano.
 
 ## Concluído
 
@@ -21,6 +21,8 @@ Revisar a versão com créditos e ilustrações por dia; seguir com a entrada Co
 - Identidade Jornada com a Palavra no topo e metadados; créditos de José Lazarete e da Lazarete Automações no rodapé.
 - Ilustrações aplicadas nos dias 5 (fornalha), 13 (leões) e 19 (oração/visão), inteiras e com textos alternativos. Capa preservada. Imagem com legenda em inglês reservada.
 - Build, seis testes existentes e conferência das imagens em desktop/celular passaram.
+- A pedido de José, três imagens foram harmonizadas com a capa e a imagem original de oração usando `image_gen`; arquivos e prompts em `imagens.md`.
+- Adicionados links diretos `#dia-5`, `#dia-13` e `#dia-19`; servidor local sem cache para facilitar a conferência. O usuário confirmou que acessa localhost; o servidor retornava as imagens anteriores corretamente, sem evidência de falha no carregamento.
 
 ## Próximos passos
 

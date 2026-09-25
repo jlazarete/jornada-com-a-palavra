@@ -47,3 +47,7 @@ As quatro imagens em `Img/` foram fornecidas por José e inspecionadas; todas s�
 - `(3)`: recusa dos alimentos da corte; contém legenda em inglês e composição que merece revisão antes do uso.
 
 As imagens recuperadas não vieram acompanhadas de declaração de licença. Confirmar direitos de uso antes da publicação independente. A revisão visual não certifica precisão histórica ou teológica das representações.
+
+## Atualização visual posterior
+
+A pedido de José, as três ilustrações aplicadas receberam versões `-v2.png`, usando a capa e a imagem de oração originais como referências. Consulte `imagens.md` para arquivos e prompts. Os JPEGs de origem foram preservados; a aplicação agora usa os PNGs harmonizados.

@@ -11,10 +11,12 @@ Aplicação estática recuperada da versão 2 do Sites: HTML, CSS e JavaScript, 
 Com Python 3, na raiz do projeto:
 
 ```sh
-python3 -m http.server 5173 --bind 127.0.0.1
+python3 scripts/serve.py
 ```
 
-Abra http://127.0.0.1:5173 . Use o servidor HTTP, pois o JavaScript usa módulos.
+Abra http://127.0.0.1:5173 . A prévia usa `Cache-Control: no-store` para não manter versões antigas dos arquivos. Use o servidor HTTP, pois o JavaScript usa módulos.
+
+Para ver as cenas diretamente: [fornalha — dia 5](http://127.0.0.1:5173/#dia-5), [leões — dia 13](http://127.0.0.1:5173/#dia-13) e [oração/visão — dia 19](http://127.0.0.1:5173/#dia-19). Os demais dias mantêm a imagem original de oração.
 
 Com Node.js 20 ou superior e npm, os atalhos também estão disponíveis, sem precisar executar `npm install`:
 
@@ -45,5 +47,6 @@ O progresso do site de origem não é transferido automaticamente para localhost
 - `docs/current-task.md`: andamento e próxima tarefa.
 - `docs/decisions.md`: decisões confirmadas e pendências.
 - `docs/migracao-sites.md`: origem e inventário da migração.
+- `docs/imagens.md`: arquivos e prompts das ilustrações harmonizadas.
 
 Repositório privado: https://github.com/jlazarete/jornada-com-a-palavra . A migração é local; o site de origem permanece como referência.
