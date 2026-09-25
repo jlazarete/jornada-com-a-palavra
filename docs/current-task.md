@@ -4,7 +4,7 @@ Atualizado em 25/09/2026.
 
 ## Objetivo
 
-Publicar a versão aprovada em `jornadacomapalavra.com.br`, com hospedagem na Vercel e DNS na Hostinger. A solicitação de publicação passa a ser a prioridade; melhorias de navegação ficam para depois.
+Publicar a versão aprovada em `jornadacomapalavra.com.br`, com hospedagem no Cloudflare Pages e DNS na Cloudflare (registro mantido na Hostinger). A solicitação de publicação passa a ser a prioridade; melhorias de navegação ficam para depois.
 
 ## Concluído
 
@@ -26,7 +26,7 @@ Publicar a versão aprovada em `jornadacomapalavra.com.br`, com hospedagem na Ve
 
 ## Próximos passos
 
-Prioridade atual: concluir login na Vercel, deploy e DNS conforme `publicacao.md`. Configuração local preparada e validada; nenhuma publicação ou alteração de DNS realizada nesta etapa.
+Prioridade atual: concluir login na Cloudflare, deploy e migração do DNS conforme `publicacao.md`. Configuração local preparada e validada; nenhuma publicação ou alteração de DNS realizada nesta etapa.
 
 Backlog após publicação:
 

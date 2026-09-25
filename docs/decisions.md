@@ -19,9 +19,13 @@
 ## Pendências
 
 - Tradução bíblica e direitos de reprodução.
-- Concluir autenticação da Vercel e configuração do DNS.
+- Concluir autenticação da Cloudflare, projeto Pages e migração do DNS.
 - Revisão editorial das reflexões. Links originais usam YouVersion/NVI; não há transcrição integral de tradução bíblica.
 
 ## Publicação autorizada em 25/09/2026
 
 José solicitou colocar no ar e definiu `jornadacomapalavra.com.br` como domínio. Seguir o padrão dos demais projetos (Vercel + DNS Hostinger), substituindo a sugestão inicial de hospedar na Hostinger. Publicar a versão já aprovada; a entrada Começar/Continuar e outros aprimoramentos ficam no backlog. Manter o site original em `daniel.lazarete.com.br`.
+
+### Revisão posterior na mesma sessão
+
+José substituiu Vercel por Cloudflare. Após esclarecer a exigência de zona Cloudflare para usar o domínio principal no Pages, confirmou **hospedagem e DNS na Cloudflare**, com `jornadacomapalavra.com.br` sem `www`. O registro permanece na Hostinger. A decisão acima de Vercel + DNS Hostinger foi substituída.
