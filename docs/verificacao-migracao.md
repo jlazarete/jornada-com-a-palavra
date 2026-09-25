@@ -32,3 +32,7 @@ Verificação automatizada com Playwright temporário e Chrome já instalado, co
 ## Limites desta etapa
 
 Ainda faltam a revisão editorial das reflexões e orações, verificação externa de cada link bíblico, auditoria completa de contraste/leitores de tela, seleção das imagens adicionais e revisão com José. A passagem de progresso entre domínios não é automática. Nenhuma publicação ou alteração no site original foi feita.
+
+## Créditos e ilustrações — 25/09/2026
+
+Após a aprovação visual, a build e os seis testes existentes passaram novamente. Chrome/Playwright confirmou créditos, carregamento das três imagens nos dias 5, 13 e 19, retorno à imagem original no dia 1, textos alternativos e proporção integral das ilustrações. Layout sem rolagem horizontal em 320 e 390 pixels; capturas desktop e celular inspecionadas. Nenhum erro JavaScript observado. As imagens selecionadas foram copiadas sem edição; a capa original permanece intacta.

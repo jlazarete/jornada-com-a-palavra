@@ -12,8 +12,10 @@
 - **25/09/2026 — organização da fonte:** conteúdo extraído para `src/content/daniel-21-dias.js`, estilos e comportamento separados em módulos. Os 21 registros e as duas imagens foram comparados com a origem e preservados.
 - **25/09/2026 — robustez:** mantidas as chaves `daniel21-*`; valores inválidos são descartados e falhas do armazenamento permitem uso em memória, com aviso na interface. Foco por teclado é preservado após atualizações.
 
+- **25/09/2026 — após aprovação visual de José:** aplicados créditos discretos e três ilustrações nos dias 5, 13 e 19. Preservados a capa, o roteiro e o restante do visual. A imagem com legenda em inglês fica reservada para revisão.
+
 ## Pendências
 
 - Nome definitivo, domínio, tradução bíblica e direitos de reprodução.
 - Divulgação por convite ou pública e confirmação da hospedagem.
-- Aplicação das imagens adicionais e revisão editorial das reflexões. Links originais usam YouVersion/NVI; não há transcrição integral de tradução bíblica.
+- Revisão editorial das reflexões. Links originais usam YouVersion/NVI; não há transcrição integral de tradução bíblica.

@@ -4,7 +4,7 @@ Atualizado em 25/09/2026.
 
 ## Objetivo
 
-Revisar a migração local de Daniel em 21 dias e definir o primeiro ajuste visual preservando a capa aprovada.
+Revisar a versão com créditos e ilustrações por dia; seguir com a entrada Começar/Continuar prevista no plano.
 
 ## Concluído
 
@@ -17,16 +17,19 @@ Revisar a migração local de Daniel em 21 dias e definir o primeiro ajuste visu
 - Preservados o conteúdo dos 21 dias, a capa e a imagem original de oração; HTML, CSS e JavaScript separados para edição.
 - Corrigidas falhas com armazenamento bloqueado/corrompido e perda de foco após atualizações.
 - Build estática e seis testes automatizados passaram. Verificação em Chrome passou em desktop e celular; detalhes em `verificacao-migracao.md`.
-- Quatro imagens JPEG em `Img/` inspecionadas e catalogadas; continuam fora da aplicação, aguardando seleção editorial.
+- José aprovou o visual da migração e autorizou seguir com créditos e imagens.
+- Identidade Jornada com a Palavra no topo e metadados; créditos de José Lazarete e da Lazarete Automações no rodapé.
+- Ilustrações aplicadas nos dias 5 (fornalha), 13 (leões) e 19 (oração/visão), inteiras e com textos alternativos. Capa preservada. Imagem com legenda em inglês reservada.
+- Build, seis testes existentes e conferência das imagens em desktop/celular passaram.
 
 ## Próximos passos
 
-1. Revisar com José a aplicação local (`npm run dev`, http://127.0.0.1:5173).
-2. Definir o primeiro ajuste visual e quais imagens adicionais usar, conforme inventário em `migracao-sites.md`.
+1. Revisar com José os créditos e as ilustrações na aplicação local (http://127.0.0.1:5173).
+2. Implementar a entrada Começar/Continuar prevista no plano.
 3. Revisar editorialmente referências, reflexões e orações; verificar abertura externa dos links bíblicos.
-4. Completar identidade Jornada com a Palavra, créditos e entrada Começar/Continuar previstos no plano.
+4. Preparar compartilhamento discreto e revisão de acessibilidade previstos no plano.
 5. Confirmar direitos das imagens e hospedagem antes de publicar a versão independente.
 
 ## Critério de conclusão da próxima etapa
 
-Migração local revisada por José e primeiro ajuste visual definido. A aplicação já funciona localmente; a versão independente ainda não foi publicada.
+Créditos e imagens revisados por José, e entrada Começar/Continuar verificada. A aplicação já funciona localmente; a versão independente ainda não foi publicada.

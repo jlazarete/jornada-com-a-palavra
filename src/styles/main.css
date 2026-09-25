@@ -251,6 +251,10 @@ a:focus-visible {
   border-radius: 10px;
   margin: 15px 0 19px;
 }
+.detail-image--illustration {
+  height: auto;
+  aspect-ratio: 11 / 6;
+}
 .detail h2 {
   font-size: 30px;
   line-height: 1.12;
@@ -324,6 +328,13 @@ a:focus-visible {
     sans-serif;
   color: #697475;
   margin: 17px 0 0;
+}
+.initiative {
+  margin: 0 0 10px;
+  color: #34464a;
+}
+.footer-note {
+  margin: 0;
 }
 .footer {
   border-top: 1px solid #ddd9ce;

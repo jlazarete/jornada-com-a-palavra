@@ -39,11 +39,11 @@ A persistência no endereço antigo não transfere automaticamente para outro do
 
 ## Imagens adicionais
 
-As quatro imagens em `Img/` foram fornecidas por José e inspecionadas; todas são JPEG, 1408 × 768. Permanecem como material de origem, fora da build:
+As quatro imagens em `Img/` foram fornecidas por José e inspecionadas; todas são JPEG, 1408 × 768. Os originais permanecem em `Img/`; após autorização de José, três cópias foram incluídas na aplicação:
 
-- Sem sufixo: composição de oração e figura angelical; candidata para uma etapa sobre oração/visões, como representação artística.
-- `(1)`: Daniel entre leões; candidata para o dia 13.
-- `(2)`: cena da fornalha; candidata para o dia 5, como representação artística.
+- Sem sufixo: composição de oração e figura angelical; aplicada no dia 19 como representação artística (`oracao-e-visao.jpeg`).
+- `(1)`: Daniel entre leões; aplicada no dia 13 (`daniel-na-cova-dos-leoes.jpeg`).
+- `(2)`: cena da fornalha; aplicada no dia 5 como representação artística (`fornalha-ardente.jpeg`).
 - `(3)`: recusa dos alimentos da corte; contém legenda em inglês e composição que merece revisão antes do uso.
 
 As imagens recuperadas não vieram acompanhadas de declaração de licença. Confirmar direitos de uso antes da publicação independente. A revisão visual não certifica precisão histórica ou teológica das representações.

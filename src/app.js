@@ -1,4 +1,5 @@
 import { days, weekNames } from "./content/daniel-21-dias.js";
+import { dayImages, defaultDayImage } from "./content/day-images.js";
 import { keys, loadProgress, saveProgress } from "./progress.js";
 
 // The localStorage getter itself can throw when browser storage is disabled.
@@ -51,6 +52,7 @@ function render() {
     .join("");
 
   const day = days[active - 1];
+  const illustration = dayImages[active] || defaultDayImage;
   const link = day[1]
     ? `https://www.bible.com/pt/bible/129/DAN.${day[1]}.${day[2].split(":")[1].replace("–", "-")}.NVI`
     : "";
@@ -58,8 +60,8 @@ function render() {
     <div class="eyebrow">Dia ${active} de 21 · Semana ${Math.ceil(active / 7)}</div>
     <h2>${esc(day[3])}</h2>
     <div class="reference">${esc(day[2])}</div>
-    <img class="detail-image" src="./public/images/daniel-em-oracao.webp"
-      alt="Representação artística de Daniel em oração diante de uma janela" loading="lazy">
+    <img class="detail-image${dayImages[active] ? " detail-image--illustration" : ""}" src="./public/images/${esc(illustration.file)}"
+      alt="${esc(illustration.alt)}" loading="lazy" decoding="async">
     <div class="section"><h3>Para refletir</h3><p>${esc(day[4])}</p></div>
     <div class="section"><h3>Em oração</h3><p>${esc(day[5])}</p></div>
     ${link ? `<a class="readlink" href="${link}" target="_blank" rel="noopener noreferrer">Ler a passagem ↗</a>` : ""}

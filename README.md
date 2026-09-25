@@ -33,7 +33,8 @@ O comando de desenvolvimento também requer Python 3. A build copia somente a ap
 - `src/progress.js`: validação e persistência do progresso.
 - `src/styles/main.css`: estilos originais.
 - `public/images/`: imagens usadas na aplicação.
-- `Img/`: imagens adicionais fornecidas por José, ainda fora da aplicação.
+- `src/content/day-images.js`: imagens por dia e textos alternativos.
+- `Img/`: originais fornecidos por José; três foram copiados para `public/images/` e usados nos dias 5, 13 e 19.
 
 O progresso do site de origem não é transferido automaticamente para localhost ou outro domínio.
 
