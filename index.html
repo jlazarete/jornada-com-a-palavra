@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Daniel em 21 dias · Leitura e oração</title>
+    <meta
+      name="description"
+      content="Acompanhe 21 dias de leitura, meditação e oração no livro de Daniel."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b3040'/%3E%3Cpath d='M18 17h18c7 0 12 6 12 15s-5 15-12 15H18zM26 24v16h9c4 0 6-3 6-8s-2-8-6-8z' fill='%23e8bd70'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <header class="mast">
+      <div class="shell">
+        <div class="top">
+          <div class="brand">Jornada de leitura · Daniel</div>
+          <div class="counter" id="counter">0 de 21 dias concluídos</div>
+        </div>
+        <h1>Daniel em<br />21 dias.</h1>
+        <p>
+          Um trecho por dia para ler com calma, refletir e orar durante o
+          período de jejum.
+        </p>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Progresso da jornada"
+          aria-valuemin="0"
+          aria-valuemax="21"
+          aria-valuenow="0"
+          id="progress"
+        >
+          <span id="progressFill"> </span>
+        </div>
+      </div>
+    </header>
+    <main class="shell main">
+      <div class="intro">
+        <div>
+          <h2>Seu plano de leitura</h2>
+          <p>Escolha um dia para ver a passagem e a proposta de oração.</p>
+        </div>
+        <div
+          class="period"
+          role="group"
+          aria-label="Horário preferido de leitura"
+        >
+          <button type="button" data-period="manha" aria-pressed="false">
+            ☀ Manhã
+          </button>
+          <button type="button" data-period="noite" aria-pressed="false">
+            ☾ Noite
+          </button>
+        </div>
+      </div>
+      <div class="layout">
+        <div class="weeks" id="weeks"></div>
+        <aside
+          class="detail"
+          id="detail"
+          aria-live="polite"
+          tabindex="-1"
+          aria-label="Leitura do dia"
+        ></aside>
+      </div>
+      <noscript
+        >Ative o JavaScript para selecionar os dias e acompanhar seu
+        progresso.</noscript
+      >
+    </main>
+    <footer class="footer">
+      <div class="shell">
+        Leia no seu ritmo. Nos dias de meditação, releia, ore e registre o que
+        chamou sua atenção. O progresso fica salvo apenas neste navegador e pode
+        se perder ao limpar os dados ou trocar de aparelho ou endereço.
+      </div>
+    </footer>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
